@@ -1,0 +1,581 @@
+.MainDashboard {
+  position: relative;
+  text-align: center;
+  width: 1440px;
+  height: 1024px;
+  background: #fff;
+}
+
+.Background {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: #d9d9d9;
+}
+
+.Location {
+  left: 90px;
+  top: 74px;
+  position: absolute;
+  color: #140b4d;
+  font-size: 60px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.HeaderArea {
+  width: 1440px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #6a6769;
+}
+
+.CurrentstatusText {
+  width: 283px;
+  height: 57px;
+  left: 50px;
+  top: 6px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.MenuLoc {
+  left: 20px;
+  top: 12px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  position: absolute;
+}
+
+.ClockLoc {
+  left: 1090px;
+  top: 67px;
+  width: 30px;
+  height: 30px;
+  color: #140b4d;
+  position: absolute;
+}
+
+.UserLoc {
+  left: 1380px;
+  top: 12px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  position: absolute;
+}
+
+.NowDatetime {
+  left: 1129px;
+  top: 62px;
+  position: absolute;
+  color: #140b4d;
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.GreetingCard {
+  width: 1440px;
+  height: 485.51px;
+  left: -0px;
+  top: 538.47px;
+  position: absolute;
+}
+
+.WeatherLoc {
+  left: 420px;
+  top: 85px;
+  position: absolute;
+}
+
+.BellLoc {
+  left: 350px;
+  top: 12px;
+  position: absolute;
+}
+
+.LocItem {
+  width: 18px;
+  height: 71px;
+  left: 47px;
+  top: 78px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.LocLine {
+  width: 432px;
+  height: 0px;
+  left: 47px;
+  top: 151px;
+  position: absolute;
+  border: 2px #140b4d solid;
+}
+
+.IncomeBoard {
+  width: 503px;
+  height: 157px;
+  left: 43px;
+  top: 172px;
+  position: absolute;
+}
+
+.PowInSup {
+  width: 162px;
+  height: 29px;
+  left: 341px;
+  top: 64px;
+  position: absolute;
+}
+
+.PArrow1 {
+  left: 0px;
+  top: 0px;
+  width: 36px;
+  height: 29px;
+  position: absolute;
+  fill: white;
+}
+.PArrow2 {
+  left: 42px;
+  top: 0px;
+  width: 36px;
+  height: 29px;
+  position: absolute;
+  fill: #000;
+}
+.PArrow3 {
+  left: 84px;
+  top: 0px;
+  width: 36px;
+  height: 29px;
+  position: absolute;
+  color: white;
+}
+.PArrow4 {
+  left: 126px;
+  top: 0px;
+  width: 36px;
+  height: 29px;
+  position: absolute;
+  color: white;
+}
+
+.Board1 {
+  width: 335px;
+  height: 157px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #140b4d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px #140b4d solid;
+  z-index: 5;
+}
+
+.TitleBox1 {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 20;
+}
+
+.BoardTitleTxt1 {
+  width: 176px;
+  height: 41px;
+  left: 13px;
+  top: 4px;
+  position: absolute;
+  text-align: center;
+  color: #0d105a;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+  z-index: 40;
+}
+
+.ResultPowVal {
+  width: 168px;
+  height: 35px;
+  left: 136px;
+  top: 99px;
+  position: absolute;
+  z-index: 40;
+}
+
+.ResultPowTxt {
+  width: 78px;
+  height: 26px;
+  left: 19px;
+  top: 104px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 12px;
+  word-wrap: break-word;
+  z-index: 40;
+}
+
+.PredictedPowVal {
+  width: 168px;
+  height: 35px;
+  left: 136px;
+  top: 58px;
+  position: absolute;
+  z-index: 40;
+}
+
+.PredictedPowTxt {
+  width: 78px;
+  height: 26px;
+  left: 19px;
+  top: 63px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 12px;
+  word-wrap: break-word;
+  z-index: 40;
+}
+
+.PvBoard {
+  width: 503px;
+  height: 157px;
+  left: 43px;
+  top: 350px;
+  position: absolute;
+}
+
+.PowPvSup {
+  width: 162px;
+  height: 29px;
+  left: 341px;
+  top: 26px;
+  position: absolute;
+}
+
+.Board2 {
+  width: 335px;
+  height: 157px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #fdac0e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px #fdba0e solid;
+}
+
+.TitleBox2 {
+  width: 227px;
+  height: 41px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: white;
+}
+
+.BoardTitleTxt2 {
+  width: 176px;
+  height: 41px;
+  left: 13px;
+  top: 4px;
+  position: absolute;
+  text-align: center;
+  color: #0d105a;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.PvIntensityVal {
+  width: 168px;
+  height: 35px;
+  left: 157px;
+  top: 105px;
+  position: absolute;
+}
+
+.PvIntensityTxt {
+  width: 112px;
+  height: 28px;
+  left: 24px;
+  top: 109px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.PvPowVal {
+  width: 168px;
+  height: 35px;
+  left: 157px;
+  top: 61px;
+  position: absolute;
+}
+
+.PvPowTxt {
+  width: 78px;
+  height: 26px;
+  left: 24px;
+  top: 66px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.DemandBoard {
+  width: 343px;
+  height: 283px;
+  left: 552px;
+  top: 172px;
+  position: absolute;
+}
+
+.Board3 {
+  width: 343px;
+  height: 283px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #0dc340;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px #0dc340 solid;
+}
+
+.TitleBox3 {
+  width: 227px;
+  height: 41px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: white;
+}
+
+.BoardTitleTxt3 {
+  width: 176px;
+  height: 41px;
+  left: 13px;
+  top: 4px;
+  position: absolute;
+  text-align: center;
+  color: #0d105a;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TotalDemandVal {
+  width: 168px;
+  height: 35px;
+  left: 143px;
+  top: 214px;
+  position: absolute;
+}
+
+.TotalDemandTxt {
+  width: 112px;
+  height: 28px;
+  left: 27px;
+  top: 218px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.OthersDemandVal {
+  width: 168px;
+  height: 35px;
+  left: 143px;
+  top: 161px;
+  position: absolute;
+}
+
+.OthersDemandTxt {
+  width: 112px;
+  height: 28px;
+  left: 27px;
+  top: 165px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.AirDemandVal {
+  width: 168px;
+  height: 35px;
+  left: 143px;
+  top: 112px;
+  position: absolute;
+}
+
+.AirDemandTxt {
+  width: 112px;
+  height: 28px;
+  left: 27px;
+  top: 112px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.ProduceDemandVal {
+  width: 168px;
+  height: 35px;
+  left: 143px;
+  top: 58px;
+  position: absolute;
+}
+
+.ProduceDemandTxt {
+  width: 112px;
+  height: 28px;
+  left: 27px;
+  top: 61px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.BatteryBoard {
+  width: 510px;
+  height: 219px;
+  left: 901px;
+  top: 172px;
+  position: absolute;
+}
+
+.Board4 {
+  width: 342px;
+  height: 219px;
+  left: 168px;
+  top: 0px;
+  position: absolute;
+  background: #608bf9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px #608bf9 solid;
+}
+
+.TitleBox4 {
+  width: 227px;
+  height: 41px;
+  left: 168px;
+  top: px;
+  position: absolute;
+  color: white;
+}
+
+.BoardTitleTxt4 {
+  width: 176px;
+  height: 41px;
+  left: 181px;
+  top: 4px;
+  position: absolute;
+  text-align: center;
+  color: #0d105a;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.PowNasSup {
+  width: 162px;
+  height: 29px;
+  left: 0px;
+  top: 101px;
+  position: absolute;
+}
+
+.BattryCapVal {
+  width: 168px;
+  height: 35px;
+  left: 322px;
+  top: 158px;
+  position: absolute;
+}
+
+.BatterySoc {
+  width: 168px;
+  height: 35px;
+  left: 322px;
+  top: 108px;
+  position: absolute;
+}
+
+.BatteryCapTxt {
+  width: 78px;
+  height: 26px;
+  left: 196px;
+  top: 112px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.BatteryChgdisVal {
+  width: 168px;
+  height: 35px;
+  left: 322px;
+  top: 58px;
+  position: absolute;
+}
+
+.BatteryChgdisTxt {
+  width: 78px;
+  height: 26px;
+  left: 196px;
+  top: 62px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
